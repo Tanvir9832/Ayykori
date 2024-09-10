@@ -1,0 +1,29 @@
+.tile{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tilesGrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.show{
+text-align: center;
+}
+
+.container{
+  display: flex;
+  height: 95vh;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 5vh;
+}
